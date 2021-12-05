@@ -1,6 +1,9 @@
 import React from "react";
 import { AnimalCard } from "./animal/AnimalCard";
 import "./Kennel.css"
+import { CustomerCard } from "./customer/CustomerCard";
+import { EmployeeCard } from "./employee/EmployeeCard";
+import { LocationCard } from "./location/LocationCard";
 //HTML like code is JSX: Kennel is a compoment and it is a factory fuction, which is a fuction that returns an object  
 
 /* a set of <> and </> within a fuction is a React.Fragment, which wrap the content and returns as one item*/
@@ -21,6 +24,25 @@ export const Kennel = () => (
             <AnimalCard />
             <AnimalCard />
         </article>
+
+        <h2>Employees</h2>
+        <article className="employees">
+            <EmployeeCard />
+            <EmployeeCard />
+        </article>
+
+        <h2>Location</h2>
+        <article className="locations">
+            <LocationCard />
+        </article>
+
+        <h2>Customers</h2>
+        <article className="customers">
+            <CustomerCard />
+            <CustomerCard />
+            <CustomerCard />
+        </article>
+
         </>
 )
 
