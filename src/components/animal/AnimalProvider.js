@@ -1,3 +1,5 @@
+//The purpose of the provider is to establish AnimalContext that has each fetch calls as a value of AnimalContext.  The Animal Provider has a state hook with the kay and value paire - the key name is animal and value is a data from api.  getanimals and addanimals will update the value for the animal key.   And at ApplicationViews, any children compoment has an access to inside the AnimalProvider - children component is a prop and line 45 let the children have an access to the AnimalContext's content i.e. fetch calls  
+
 // In the React library, there is a feature called the Context API. This API provides you with two critical functions.
 
 // createContext() - Create the context to be used by other components that need data.

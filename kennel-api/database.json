@@ -1,31 +1,123 @@
 {
     "animals": [
-        {
-            "id": 1,
-            "name": "Doodles",
-            "breed": "Poodle",
-            "customerId": 1,
-            "locationId": 2
-        }
+      {
+        "id": 1,
+        "name": "Doodles",
+        "breed": "Poodle",
+        "customerId": 1,
+        "locationId": 2
+      },
+      {
+        "id": 2,
+        "name": "Pochi",
+        "breed": "Akita-dog",
+        "customerId": 2,
+        "locationId": 1
+      },
+      {
+        "id": 3,
+        "name": "Jaspar",
+        "breed": "Mixed",
+        "customerId": 3,
+        "locationId": 1
+      },
+      {
+        "name": "Aki",
+        "breed": "Mutt",
+        "locationId": 2,
+        "customerId": 2,
+        "id": 4
+      }
     ],
     "customers": [
-        {
-            "id": 1,
-            "name": "Hannah Hall",
-            "address": "7002 Chestnut Ct"
-        }
+      {
+        "id": 1,
+        "name": "Hannah Hall",
+        "address": "7002 Chestnut Ct",
+        "email": "hannah@kennel.arf"
+      },
+      {
+        "id": 2,
+        "name": "Isaac Newton",
+        "address": "4301 Maple St",
+        "email": "I.newton@feline.meow"
+      },
+      {
+        "id": 3,
+        "name": "Albert Einstein",
+        "address": "8422 Johnson Pike",
+        "email": "e=mc2@swine.oink"
+      },
+      {
+        "email": "panda@bamboo",
+        "name": "Panda Bamboo",
+        "id": 4
+      }
     ],
-    "employees": [],
+    "employees": [
+      {
+        "id": 1,
+        "name": "Jeremy Bakker",
+        "locationId": 2
+      },
+      {
+        "id": 2,
+        "name": "Jason Bourne",
+        "locationId": 2
+      },
+      {
+        "id": 3,
+        "name": "Marie Curie",
+        "locationId": 1
+      },
+      {
+        "id": 4,
+        "name": "Nikola Tesla",
+        "locationId": 1
+      },
+      {
+        "name": "Aki",
+        "locationId": 1,
+        "id": 5
+      },
+      {
+        "name": "Matt Sharleen",
+        "locationId": 1,
+        "id": 6
+      },
+      {
+        "name": "Ruby Payne-Scott",
+        "locationId": 1,
+        "id": 7
+      }
+    ],
     "locations": [
-        {
-            "id": 1,
-            "name": "Nashville North",
-            "address": "8422 Johnson Pike"
-        },
-        {
-            "id": 2,
-            "name": "Nashville South",
-            "address": "209 Emory Drive"
-        }
+      {
+        "id": 1,
+        "name": "Nashville North",
+        "address": "8422 Johnson Pike"
+      },
+      {
+        "id": 2,
+        "name": "Nashville South",
+        "address": "209 Emory Drive"
+      },
+      {
+        "name": "Elkins Kennels",
+        "address": "111 Key Ln",
+        "id": 3
+      }
+    ],
+    "pets": [
+      {
+        "id": 1,
+        "name": "Isaac Newton",
+        "breed": "Poodle"
+      },
+      {
+        "id": 2,
+        "name": "Pochi",
+        "breed": "Akita-dog"
+      }
     ]
-}
+  }
