@@ -33,6 +33,7 @@ export const AnimalList = () => {
           return <AnimalCard key={animal.id} animal={animal} />
         })
       }
+      {console.log("animal map", animals.map)}
     </div>
   )
 }
