@@ -5,11 +5,11 @@
         "name": "Doodles",
         "breed": "Poodle",
         "customerId": 1,
-        "locationId": 2
+        "locationId": 2        
       },
       {
         "id": 2,
-        "name": "Pochi",
+        "name": "Aki",
         "breed": "Akita-dog",
         "customerId": 2,
         "locationId": 1
@@ -22,11 +22,53 @@
         "locationId": 1
       },
       {
-        "name": "Aki",
-        "breed": "Mutt",
+        "id": 4,
+        "name": "Lexi",
+        "breed": "Labrador Retriever",
         "locationId": 2,
-        "customerId": 2,
-        "id": 4
+        "customerId": 2
+      },
+      {
+        "id": 5,
+        "name": "Peanut",
+        "breed": "German Shepherd",
+        "locationId": 3,
+        "customerId": 4
+      },
+      {
+        "id": 6,
+        "name": "Coco",
+        "breed": "Yorkshire Terrier",
+        "locationId": 4,
+        "customerId": 1
+      },
+      {
+        "id": 7,
+        "name": "Pepper",
+        "breed": "Dachshund",
+        "locationId": 4,
+        "customerId": 1
+      },
+      {
+        "id": 8,
+        "name": "Lulu",
+        "breed": "French Bulldog",
+        "locationId": 4,
+        "customerId": 1
+      },
+      {
+        "id": 9,
+        "name": "Ginger",
+        "breed": "Shih Tzu",
+        "locationId": 4,
+        "customerId": 1
+      },
+      {
+        "id": 10,
+        "name": "Sesame",
+        "breed": "Beagle",
+        "locationId": 4,
+        "customerId": 1
       }
     ],
     "customers": [
@@ -49,9 +91,12 @@
         "email": "e=mc2@swine.oink"
       },
       {
-        "email": "panda@bamboo",
+        "id": 4,
         "name": "Panda Bamboo",
-        "id": 4
+        "address": "644 Mont Blanc Cir",
+        "email": "panda@bamboo"
+        
+        
       }
     ],
     "employees": [
@@ -77,7 +122,7 @@
       },
       {
         "name": "Aki",
-        "locationId": 1,
+        "locationId": 3,
         "id": 5
       },
       {
