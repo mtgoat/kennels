@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 
 //useState() is what the React team calls a hook. It is used to store data about the component. "My component has its own state to maintain. Therefore, I will use the State hook to store it." Every time state is updated, the component will re-render. 
 
+//useState is a super  initial construction function, which sets an object type - counClicks =0 and another function - setCountClicks - to make changes on the object type.  
+
 export const PropsAndState = ({ yourName }) => {
   let [countClicks, setCountClicks] = useState(0)
 
